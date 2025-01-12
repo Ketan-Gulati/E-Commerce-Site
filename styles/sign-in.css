@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global Styles */
+
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+
+body {
+  width: 100%;
+}
+
+/* styling login box */
+
+.login-box {
+  width: 700px;
+  margin: 10vh auto;
+}
+
+.logo-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+
+.logo-login img {
+  height: 130px;
+}
+
+.logo-login .login {
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.credential {
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+}
+
+#email-or-phone-input,
+#password-input {
+  padding-bottom: 10px;
+  width: 255px;
+  padding: 5px;
+}
+
+.forgot-password {
+  font-size: 15px;
+  color: #007185;
+  font-weight: 700;
+}
+
+#login-btn {
+  margin-bottom: 40px;
+  width: 255px;
+  padding: 5px;
+  background-image: linear-gradient(to top right, #ffd700, #f0e68c, #eedd82);
+  font-weight: 500;
+}
+
+#new-sign-up {
+  width: 255px;
+  padding: 5px;
+  background-image: linear-gradient(
+    to top right,
+    rgb(190, 190, 190),
+    rgb(224, 222, 222),
+    rgb(213, 213, 213)
+  );
+  font-weight: 500;
+}
+
+#new-sign-up a {
+  text-decoration: none;
+  color: black;
+}
