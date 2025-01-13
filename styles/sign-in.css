@@ -29,18 +29,17 @@ body {
   margin: 10vh auto;
 }
 
-.logo-login {
+.login {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 35px;
 }
 
-.logo-login img {
+.login img {
   height: 130px;
 }
 
-.logo-login .login {
+.login .login-text {
   font-size: 30px;
   font-weight: 500;
   padding-bottom: 10px;
@@ -61,7 +60,7 @@ body {
 
 .forgot-password {
   font-size: 15px;
-  color: #007185;
+  color: #3399a8;
   font-weight: 700;
 }
 
@@ -69,7 +68,7 @@ body {
   margin-bottom: 40px;
   width: 255px;
   padding: 5px;
-  background-image: linear-gradient(to top right, #ffd700, #f0e68c, #eedd82);
+  background: linear-gradient(to top right, #ffd700, #f0e68c, #eedd82);
   font-weight: 500;
 }
 
@@ -89,3 +88,32 @@ body {
   text-decoration: none;
   color: black;
 }
+
+#new-sign-up:hover a {          /* so that when we hover anywhere on button , text color changes*/
+  color: #f1f1f1
+}
+#new-sign-up:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    to top right,
+    rgb(120, 120, 120),
+    rgb(160, 160, 160),
+    rgb(140, 140, 140)
+  );
+}
+
+#login-btn {
+  cursor: pointer;
+}
+
+#new-sign-up a {                /*to make <a> a block element and cover area of whole button so that entire button is clickable*/
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.forgot-password:hover{
+  cursor: pointer;
+  color:#007185;
+}
+

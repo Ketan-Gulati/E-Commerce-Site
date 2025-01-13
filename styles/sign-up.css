@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global Styles */
+
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+
+body {
+  width: 100%;
+}
+
+/* styling the sign up box */
+
+.sign-up-box {
+  width: 700px;
+  margin: 10vh auto;
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.sign-up img {
+  height: 130px;
+}
+
+.welcome {
+  font-size: 30px;
+  font-weight: 500;
+  color: red;
+}
+
+.credential {
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+}
+
+#phone-input {
+  width: 255px;
+  padding: 5px;
+}
+
+#req-code {
+  margin-top: 15px;
+  width: 255px;
+  padding: 5px;
+  background: linear-gradient(to top right, #ffd700, #f0e68c, #eedd82);
+  font-weight: 500;
+}
+
+#phone-input::-webkit-inner-spin-button,      /*to remove spinners(arrows) from input field with type=number (copied from gpt)*/
+#phone-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* #phone-input {
+  -moz-appearance: textfield;      =>for firefox
+} */
+
+
+#req-code:hover{
+    cursor:pointer;
+}
