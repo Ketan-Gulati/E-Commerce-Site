@@ -89,8 +89,9 @@ body {
   color: black;
 }
 
-#new-sign-up:hover a {          /* so that when we hover anywhere on button , text color changes*/
-  color: #f1f1f1
+#new-sign-up:hover a {
+  /* so that when we hover anywhere on button , text color changes*/
+  color: #f1f1f1;
 }
 #new-sign-up:hover {
   cursor: pointer;
@@ -106,14 +107,14 @@ body {
   cursor: pointer;
 }
 
-#new-sign-up a {                /*to make <a> a block element and cover area of whole button so that entire button is clickable*/
+#new-sign-up a {
+  /*to make <a> a block element and cover area of whole button so that entire button is clickable*/
   display: block;
   text-decoration: none;
   color: inherit;
 }
 
-.forgot-password:hover{
+.forgot-password:hover {
   cursor: pointer;
-  color:#007185;
+  color: #007185;
 }
-
