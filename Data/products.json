@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Black Mug",
+    "product-id": "sku-1",
+    "image": "1.jpg",
+    "price": 449,
+    "ratings": "rating-40.png",
+    "bestseller":"yes"
+  },
+  {
+    "name": "Black Tshirt",
+    "product-id": "sku-2",
+    "image": "2.png",
+    "price": 899,
+    "ratings": "rating-45.png",
+    "featured":"yes"
+  },
+  {
+    "name": "Brown Tshirt",
+    "product-id": "sku-3",
+    "image": "3.png",
+    "price": 899,
+    "ratings": "rating-40.png"
+  },
+  {
+    "name": "Cyan Tshirt",
+    "product-id": "sku-4",
+    "image": "4.jpg",
+    "price": 899,
+    "ratings": "rating-40.png"
+  },
+  {
+    "name": "Abstract shirt",
+    "product-id": "sku-5",
+    "image": "5.jpg",
+    "price": 999,
+    "ratings": "rating-45.png"
+  },
+  {
+    "name": "Floral Shirt",
+    "product-id": "sku-6",
+    "image": "6.jpg",
+    "price": 999,
+    "ratings": "rating-40.png",
+    "featured":"yes"
+  },
+  {
+    "name": "Floral Shirt",
+    "product-id": "sku-7",
+    "image": "7.jpg",
+    "price": 999,
+    "ratings": "rating-45.png"
+  },
+  {
+    "name": "Floral Shirt",
+    "product-id": "sku-8",
+    "image": "8.jpg",
+    "price": 899,
+    "ratings": "rating-30.png"
+  },
+  {
+    "name": "Floral Shirt",
+    "product-id": "sku-9",
+    "image": "9.jpg",
+    "price": 899,
+    "ratings": "rating-35.png"
+  },
+  {
+    "name": "Floral Shirt",
+    "product-id": "sku-10",
+    "image": "10.jpg",
+    "price": 1299,
+    "ratings": "rating-45.png"
+  },
+  {
+    "name": "Gray Tshirt",
+    "product-id": "sku-11",
+    "image": "11.png",
+    "price": 999,
+    "ratings": "rating-40.png"
+  },
+  {
+    "name": "Green Tshirt",
+    "product-id": "sku-12",
+    "image": "12.png",
+    "price": 799,
+    "ratings": "rating-35.png"
+  },
+  {
+    "name": "Greeb Mug",
+    "product-id": "sku-13",
+    "image": "13.jpg",
+    "price": 449,
+    "ratings": "rating-40.png"
+  },
+  {
+    "name": "Sky Blue Shirt",
+    "product-id": "sku-14",
+    "image": "14.jpg",
+    "price": 1199,
+    "ratings": "rating-45.png"
+  },
+  {
+    "name": "Checked Shirt",
+    "product-id": "sku-15",
+    "image": "15.jpg",
+    "price": 999,
+    "ratings": "rating-35.png"
+  },
+  {
+    "name": "White Shirt",
+    "product-id": "sku-16",
+    "image": "16.jpg",
+    "price": 999,
+    "ratings": "rating-40.png"
+  },
+  {
+    "name": "Printed Shirt",
+    "product-id": "sku-17",
+    "image": "17.jpg",
+    "price": 999,
+    "ratings": "rating-25.png"
+  },
+  {
+    "name": "Brown Shirt",
+    "product-id": "sku-18",
+    "image": "18.jpg",
+    "price": 999,
+    "ratings": "rating-30.png"
+  },
+  {
+    "name": "Black Shirt",
+    "product-id": "sku-19",
+    "image": "19.jpg",
+    "price": 999,
+    "ratings": "rating-40.png"
+  },
+  {
+    "name": "Red Mug",
+    "product-id": "sku-20",
+    "image": "20.png",
+    "price": 449,
+    "ratings": "rating-40.png"
+  },
+  {
+    "name": "Pink Mug",
+    "product-id": "sku-21",
+    "image": "21.png",
+    "price": 449,
+    "ratings": "rating-40.png"
+  },
+  {
+    "name": "Pink Tshirt",
+    "product-id": "sku-22",
+    "image": "22.png",
+    "price": 999,
+    "ratings": "rating-45.png"
+  },
+  {
+    "name": "Red Tshirt",
+    "product-id": "sku-23",
+    "image": "23.png",
+    "price": 999,
+    "ratings": "rating-30.png"
+  },
+  {
+    "name": "Sage Green Tshirt",
+    "product-id": "sku-24",
+    "image": "24.png",
+    "price": 1199,
+    "ratings": "rating-40.png"
+  },
+  {
+    "name": "Tote Bag",
+    "product-id": "sku-25",
+    "image": "25.png",
+    "price": 399,
+    "ratings": "rating-45.png"
+  },
+  {
+    "name": "Tote Bag",
+    "product-id": "sku-26",
+    "image": "26.png",
+    "price": 399,
+    "ratings": "rating-40.png"
+  },
+  {
+    "name": "Tote Bag",
+    "product-id": "sku-27",
+    "image": "27.png",
+    "price": 429,
+    "ratings": "rating-45.png"
+  },
+  {
+    "name": "Tote Bag",
+    "product-id": "sku-28",
+    "image": "28.png",
+    "price": 399,
+    "ratings": "rating-35.png"
+  },
+  {
+    "name": "Tote Bag",
+    "product-id": "sku-29",
+    "image": "29.png",
+    "price": 429,
+    "ratings": "rating-45.png"
+  },
+  {
+    "name": "White Mug",
+    "product-id": "sku-30",
+    "image": "30.jpg",
+    "price": 449,
+    "ratings": "rating-50.png",
+    "featured":"yes"
+  },
+  {
+    "name": "White and Blue Mug",
+    "product-id": "sku-31",
+    "image": "31.png",
+    "price": 499,
+    "ratings": "rating-40.png"
+  },
+  {
+    "name": "Yellow Tshirt",
+    "product-id": "sku-32",
+    "image": "32.png",
+    "price": 899,
+    "ratings": "rating-30.png"
+  },
+  {
+    "name": "Yellow Tshirt",
+    "product-id": "sku-33",
+    "image": "33.png",
+    "price": 999,
+    "ratings": "rating-45.png",
+    "featured":"yes"
+  },
+  {
+    "name": "Tote Bag",
+    "product-id": "sku-34",
+    "image": "34.png",
+    "price": 449,
+    "ratings": "rating-45.png"
+  },
+  {
+    "name": "Tote Bag",
+    "product-id": "sku-35",
+    "image": "35.png",
+    "price": 449,
+    "ratings": "rating-40.png"
+  },
+  {
+    "name": "Tote Bag",
+    "product-id": "sku-36",
+    "image": "36.png",
+    "price": 399,
+    "ratings": "rating-35.png"
+  },
+  {
+    "name": "Tote Bag",
+    "product-id": "sku-37",
+    "image": "37.png",
+    "price": 399,
+    "ratings": "rating-35.png"
+  },
+  {
+    "name": "Tote Bag",
+    "product-id": "sku-38",
+    "image": "38.png",
+    "price": 449,
+    "ratings": "rating-50.png",
+    "featured":"yes"
+  },
+  {
+    "name": "White and Brown Mug",
+    "product-id": "sku-39",
+    "image": "39.jpg",
+    "price": 499,
+    "ratings": "rating-35.png"
+  },
+  {
+    "name": "White and Orange Mug",
+    "product-id": "sku-40",
+    "image": "40.png",
+    "price": 499,
+    "ratings": "rating-40.png"
+  },
+  {
+    "name": "White Tshirt",
+    "product-id": "sku-41",
+    "image": "41.jpg",
+    "price": 999,
+    "ratings": "rating-50.png"
+  }
+]

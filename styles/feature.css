@@ -1,0 +1,29 @@
+.feature img{
+    height:90px;
+}
+
+.feature{
+    text-align: center;
+    box-shadow: 0px 1px 5px grey;
+    padding:10px;
+    height:170px;
+    width:170px;
+}
+
+.features{
+    display:flex;
+    justify-content: space-between;
+    padding:20px 80px;
+}
+
+.features p{
+    font-weight: 700;
+    color:#282828;
+}
+
+.feature:hover{
+    box-shadow: 0px 1px 8px grey;
+    /* width:180px;     // feature on hold
+    height:180px; */
+    transition: 0.3s ease;
+}
