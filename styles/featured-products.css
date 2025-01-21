@@ -36,14 +36,8 @@
 }
 
 .featured-product:hover {
-  width: 260px;
-  height: 320px;
+  transform: scale(1.1);
   transition: 0.3s ease;
   box-shadow: 0px 0px 15px rgb(240, 123, 123);
-}
-
-.featured-product:hover .product-img {
-  width: 260px;
-  height: 260px;
-  transition: 0.3s ease;
+  cursor: pointer;
 }
