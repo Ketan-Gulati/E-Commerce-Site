@@ -5,7 +5,8 @@
     "image": "1.jpg",
     "price": 449,
     "ratings": "rating-40.png",
-    "bestseller":"yes"
+    "customizable": "yes",
+    "featured":"yes"
   },
   {
     "name": "Black Tshirt",
@@ -13,14 +14,17 @@
     "image": "2.png",
     "price": 899,
     "ratings": "rating-45.png",
-    "featured":"yes"
+    "featured": "yes",
+    "customizable": "yes"
   },
   {
     "name": "Brown Tshirt",
     "product-id": "sku-3",
     "image": "3.png",
     "price": 899,
-    "ratings": "rating-40.png"
+    "ratings": "rating-40.png",
+    "customizable": "yes",
+    "featured":"yes"
   },
   {
     "name": "Cyan Tshirt",
@@ -42,7 +46,7 @@
     "image": "6.jpg",
     "price": 999,
     "ratings": "rating-40.png",
-    "featured":"yes"
+    "featured": "yes"
   },
   {
     "name": "Floral Shirt",
@@ -84,7 +88,9 @@
     "product-id": "sku-12",
     "image": "12.png",
     "price": 799,
-    "ratings": "rating-35.png"
+    "ratings": "rating-35.png",
+    "customizable": "yes"
+
   },
   {
     "name": "Greeb Mug",
@@ -154,7 +160,8 @@
     "product-id": "sku-22",
     "image": "22.png",
     "price": 999,
-    "ratings": "rating-45.png"
+    "ratings": "rating-45.png",
+    "customizable": "yes"
   },
   {
     "name": "Red Tshirt",
@@ -168,7 +175,8 @@
     "product-id": "sku-24",
     "image": "24.png",
     "price": 1199,
-    "ratings": "rating-40.png"
+    "ratings": "rating-40.png",
+    "customizable": "yes"
   },
   {
     "name": "Tote Bag",
@@ -211,14 +219,16 @@
     "image": "30.jpg",
     "price": 449,
     "ratings": "rating-50.png",
-    "featured":"yes"
+    "featured": "yes",
+    "customizable": "yes"
   },
   {
     "name": "White and Blue Mug",
     "product-id": "sku-31",
     "image": "31.png",
     "price": 499,
-    "ratings": "rating-40.png"
+    "ratings": "rating-40.png",
+    "customizable": "yes"
   },
   {
     "name": "Yellow Tshirt",
@@ -233,7 +243,8 @@
     "image": "33.png",
     "price": 999,
     "ratings": "rating-45.png",
-    "featured":"yes"
+    "featured": "yes",
+    "customizable": "yes"
   },
   {
     "name": "Tote Bag",
@@ -269,21 +280,23 @@
     "image": "38.png",
     "price": 449,
     "ratings": "rating-50.png",
-    "featured":"yes"
+    "featured": "yes"
   },
   {
     "name": "White and Brown Mug",
     "product-id": "sku-39",
     "image": "39.jpg",
     "price": 499,
-    "ratings": "rating-35.png"
+    "ratings": "rating-35.png",
+    "customizable": "yes"
   },
   {
     "name": "White and Orange Mug",
     "product-id": "sku-40",
     "image": "40.png",
     "price": 499,
-    "ratings": "rating-40.png"
+    "ratings": "rating-40.png",
+    "customizable": "yes"
   },
   {
     "name": "White Tshirt",

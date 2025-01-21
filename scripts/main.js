@@ -10,15 +10,29 @@ fetch("./Data/products.json")
     renderProducts(data);
   })
   .catch((error) => {
-    console.error("Error fetching product :", error);
+    console.error("Error loading :", error);
   });
 
 function renderProducts(products) {
-  let productHtml = "";
+  let featuredHtml = "";
+  let customHtml = "";
   products.forEach((product) => {
     if (product.featured === "yes") {
-      productHtml += `
-        <div class="featured-product">
+      featuredHtml += `
+        <div class="home-product">
+          <img
+            class="product-img"
+            src="./Assets/Images/Products/${product.image}"
+          />
+          <img
+            class="product-rating"
+            src="./Assets/Images/ratings/${product.ratings}"
+          />
+          <p>Rs. ${product.price}</p>
+        </div>`;
+    } else if (product.customizable === "yes") {
+      customHtml += `
+        <div class="home-product">
           <img
             class="product-img"
             src="./Assets/Images/Products/${product.image}"
@@ -31,5 +45,36 @@ function renderProducts(products) {
         </div>`;
     }
   });
-  document.getElementById("featured-products").innerHTML = productHtml;
+  document.getElementById("featured-products").innerHTML = featuredHtml;
+  document.getElementById("Customizable-products").innerHTML = customHtml;
 }
+
+function slider(productList, prev, next) {
+  // code for slider operation
+  const itemList = document.querySelector(`.${productList}`);
+  const prevBtn = document.querySelector(`.${prev}`);
+  const nextBtn = document.querySelector(`.${next}`);
+
+  let currentIndex = 0;
+
+  prevBtn.addEventListener("click", () => {
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateSlider();
+    }
+  });
+
+  nextBtn.addEventListener("click", () => {
+    if (currentIndex < itemList.children.length - 1) {
+      currentIndex++;
+      updateSlider();
+    }
+  });
+
+  function updateSlider() {
+    itemList.style.transform = `translateX(-${currentIndex * 300}px)`;
+  }
+}
+
+slider("featured-product-list", "prev1", "next1");
+slider("Customizable-product-list", "prev2", "next2");
