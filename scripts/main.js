@@ -16,6 +16,7 @@ fetch("./Data/products.json")
 function renderProducts(products) {
   let featuredHtml = "";
   let customHtml = "";
+  let bestsellerHtml = "";
   products.forEach((product) => {
     if (product.featured === "yes") {
       featuredHtml += `
@@ -43,10 +44,26 @@ function renderProducts(products) {
           />
           <p>Rs. ${product.price}</p>
         </div>`;
+    } else if (product.bestseller === "yes") {
+      bestsellerHtml += `
+        <div class="home-product">
+          <img
+            class="product-img"
+            src="./Assets/Images/Products/${product.image}"
+          />
+          <img
+            class="product-rating"
+            src="./Assets/Images/ratings/${product.ratings}"
+          />
+          <p>Rs. ${product.price}</p>
+        </div>`;
+      {
+      }
     }
   });
   document.getElementById("featured-products").innerHTML = featuredHtml;
   document.getElementById("Customizable-products").innerHTML = customHtml;
+  document.getElementById("Bestseller-products").innerHTML=bestsellerHtml;
 }
 
 function slider(productList, prev, next) {
@@ -78,3 +95,4 @@ function slider(productList, prev, next) {
 
 slider("featured-product-list", "prev1", "next1");
 slider("Customizable-product-list", "prev2", "next2");
+slider("Bestseller-product-list","prev3","next3");

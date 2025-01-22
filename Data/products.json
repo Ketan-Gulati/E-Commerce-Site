@@ -6,7 +6,8 @@
     "price": 449,
     "ratings": "rating-40.png",
     "customizable": "yes",
-    "featured":"yes"
+    "featured": "yes",
+    "bestseller": "yes"
   },
   {
     "name": "Black Tshirt",
@@ -24,7 +25,7 @@
     "price": 899,
     "ratings": "rating-40.png",
     "customizable": "yes",
-    "featured":"yes"
+    "featured": "yes"
   },
   {
     "name": "Cyan Tshirt",
@@ -53,7 +54,8 @@
     "product-id": "sku-7",
     "image": "7.jpg",
     "price": 999,
-    "ratings": "rating-45.png"
+    "ratings": "rating-45.png",
+    "bestseller": "yes"
   },
   {
     "name": "Floral Shirt",
@@ -67,14 +69,16 @@
     "product-id": "sku-9",
     "image": "9.jpg",
     "price": 899,
-    "ratings": "rating-35.png"
+    "ratings": "rating-35.png",
+    "bestseller": "yes"
   },
   {
     "name": "Floral Shirt",
     "product-id": "sku-10",
     "image": "10.jpg",
     "price": 1299,
-    "ratings": "rating-45.png"
+    "ratings": "rating-45.png",
+    "bestseller": "yes"
   },
   {
     "name": "Gray Tshirt",
@@ -90,7 +94,6 @@
     "price": 799,
     "ratings": "rating-35.png",
     "customizable": "yes"
-
   },
   {
     "name": "Greeb Mug",
@@ -104,7 +107,8 @@
     "product-id": "sku-14",
     "image": "14.jpg",
     "price": 1199,
-    "ratings": "rating-45.png"
+    "ratings": "rating-45.png",
+    "bestseller": "yes"
   },
   {
     "name": "Checked Shirt",
@@ -118,7 +122,8 @@
     "product-id": "sku-16",
     "image": "16.jpg",
     "price": 999,
-    "ratings": "rating-40.png"
+    "ratings": "rating-40.png",
+    "bestseller": "yes"
   },
   {
     "name": "Printed Shirt",
@@ -161,7 +166,8 @@
     "image": "22.png",
     "price": 999,
     "ratings": "rating-45.png",
-    "customizable": "yes"
+    "customizable": "yes",
+    "bestseller": "yes"
   },
   {
     "name": "Red Tshirt",
@@ -176,7 +182,8 @@
     "image": "24.png",
     "price": 1199,
     "ratings": "rating-40.png",
-    "customizable": "yes"
+    "customizable": "yes",
+    "bestseller": "yes"
   },
   {
     "name": "Tote Bag",
@@ -197,7 +204,8 @@
     "product-id": "sku-27",
     "image": "27.png",
     "price": 429,
-    "ratings": "rating-45.png"
+    "ratings": "rating-45.png",
+    "bestseller": "yes"
   },
   {
     "name": "Tote Bag",
@@ -211,7 +219,8 @@
     "product-id": "sku-29",
     "image": "29.png",
     "price": 429,
-    "ratings": "rating-45.png"
+    "ratings": "rating-45.png",
+    "bestseller": "yes"
   },
   {
     "name": "White Mug",
@@ -228,7 +237,8 @@
     "image": "31.png",
     "price": 499,
     "ratings": "rating-40.png",
-    "customizable": "yes"
+    "customizable": "yes",
+    "bestseller": "yes"
   },
   {
     "name": "Yellow Tshirt",
@@ -251,7 +261,8 @@
     "product-id": "sku-34",
     "image": "34.png",
     "price": 449,
-    "ratings": "rating-45.png"
+    "ratings": "rating-45.png",
+    "bestseller": "yes"
   },
   {
     "name": "Tote Bag",
@@ -280,7 +291,8 @@
     "image": "38.png",
     "price": 449,
     "ratings": "rating-50.png",
-    "featured": "yes"
+    "featured": "yes",
+    "bestseller": "yes"
   },
   {
     "name": "White and Brown Mug",
@@ -288,7 +300,8 @@
     "image": "39.jpg",
     "price": 499,
     "ratings": "rating-35.png",
-    "customizable": "yes"
+    "customizable": "yes",
+    "bestseller": "yes"
   },
   {
     "name": "White and Orange Mug",
@@ -303,6 +316,7 @@
     "product-id": "sku-41",
     "image": "41.jpg",
     "price": 999,
-    "ratings": "rating-50.png"
+    "ratings": "rating-50.png",
+    "bestseller": "yes"
   }
 ]
