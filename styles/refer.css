@@ -9,7 +9,8 @@
 
 .refer .description {
   position: absolute;
-  top: 25%;
+  top: 50%;
+  transform: translateY(-50%);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

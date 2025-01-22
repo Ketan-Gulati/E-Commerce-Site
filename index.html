@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/home prducts.css" />
     <link rel="stylesheet" href="./styles/newsletter.css" />
     <link rel="stylesheet" href="./styles/refer.css" />
+    <link rel="stylesheet" href="./styles/banner.css" />
     <script
       src="https://kit.fontawesome.com/6b47e78300.js"
       crossorigin="anonymous"
@@ -73,19 +74,20 @@
         </button>
       </div>
     </section>
-
-    <section class="newsletter">
-      <img src="./Assets/Images/Banner/b1.jpg" />
+    
+    <section class="banners">
+      <img class="republic-day" src="./Assets/Images/Banner/Republic day.jpeg">
+      <div class="text-box-container">        <!--this box has to be created for relative and absolute position to work (parent , child)-->
+        <img class="text-box" src="./Assets/Images/Banner/blue paint box.png">
+      </div>                               
       <div class="description">
-        <p class="head">Subscribe to our newsletter</p>
-        <p class="info">Get updates about the latest products and offers!</p>
-        <div class="email">
-          <input type="text" placeholder="Enter your email address" />
-          <button>Submit</button>
-        </div>
+        <p class="rd-offers">Republic day offers</p>
+        <p class="sale-info">Upto 70% off <b>till 28th jan</b></p>
       </div>
-    </section>
-
+    </div>
+  </div>            
+</section>
+    
     <section class="customized-products product-display">
       <h4>Customizable Products</h4>
       <div class="Customizable-product-list" id="Customizable-products"></div>
@@ -98,7 +100,7 @@
         </button>
       </div>
     </section>
-
+    
     <section class="refer">
       <img src="./Assets/Images/Banner/b2.jpg">
       <div class="description">
@@ -110,7 +112,7 @@
         </div>
       </div>
     </section>
-
+    
     <section class="best-sellers product-display">
       <h4>Bestsellers</h4>
       <div class="Bestseller-product-list" id="Bestseller-products"></div>
@@ -123,10 +125,23 @@
         </button>
       </div>
     </section>
+    
 
-    <section class="banners"></section>
+<section class="newsletter">
+  <img src="./Assets/Images/Banner/b1.jpg" />
+  <div class="description">
+    <p class="head">Subscribe to our newsletter</p>
+    <p class="info">Get updates about the latest products and offers!</p>
+    <div class="email">
+      <input type="text" placeholder="Enter your email address" />
+      <button>Submit</button>
+    </div>
+  </div>
+</section>
 
-    <sections class="footer"></sections>
+    <sections class="footer">
+      
+    </sections>
 
     <script src="./scripts/main.js"></script>
   </body>

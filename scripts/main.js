@@ -63,7 +63,7 @@ function renderProducts(products) {
   });
   document.getElementById("featured-products").innerHTML = featuredHtml;
   document.getElementById("Customizable-products").innerHTML = customHtml;
-  document.getElementById("Bestseller-products").innerHTML=bestsellerHtml;
+  document.getElementById("Bestseller-products").innerHTML = bestsellerHtml;
 }
 
 function slider(productList, prev, next) {
@@ -95,4 +95,4 @@ function slider(productList, prev, next) {
 
 slider("featured-product-list", "prev1", "next1");
 slider("Customizable-product-list", "prev2", "next2");
-slider("Bestseller-product-list","prev3","next3");
+slider("Bestseller-product-list", "prev3", "next3");
