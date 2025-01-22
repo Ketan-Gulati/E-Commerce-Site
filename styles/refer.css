@@ -1,0 +1,56 @@
+.refer img {
+  width: 100%;
+  height: auto;
+}
+
+.refer {
+  position: relative;
+}
+
+.refer .description {
+  position: absolute;
+  top: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0px 50px;
+}
+
+.refer .head {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.refer .info {
+  color: rgb(255, 200, 0);
+  font-size: 22px;
+}
+
+.refer .refer-link {
+  background: white;
+  width: 100%;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.refer .refer-link button {
+  border: none;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  padding: 5px 30px;
+  background-color: red;
+  color: white;
+  padding: 0px 20px;
+}
+
+.refer .refer-link p {
+  padding: 0px 10px;
+}
+
+.refer .refer-link button:hover {
+  cursor: pointer;
+  background-color: green;
+  transition: 0.3s ease;
+}

@@ -51,7 +51,6 @@
 
 .newsletter button:hover {
   cursor: pointer;
-  background-color: rgb(87, 228, 87);
-  color: black;
+  background-color: green;
   transition: 0.3s ease;
 }

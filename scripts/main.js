@@ -65,7 +65,7 @@ function slider(productList, prev, next) {
   });
 
   nextBtn.addEventListener("click", () => {
-    if (currentIndex < itemList.children.length - 1) {
+    if (currentIndex < itemList.children.length - 5) {
       currentIndex++;
       updateSlider();
     }
